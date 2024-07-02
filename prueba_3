@@ -1,0 +1,65 @@
+  def menu():
+    print("Bienvenidos a Gestion de inventarios")
+    print("")
+    print("1. Agregar producto ")
+    print("2. Eliminar Producto de el inventario ")
+    print("3. Buscar producto en el inventario ")
+    print("4. Mostrar  todo el inventario ")
+    print("5. Guardar inventario en un archivo ")
+    print("6. Cargar inventario ")
+
+  #Agregar producto
+  def agregar_producto():
+    while bandera==1:
+      diccionario={}
+      id=int(input("Ingrese un id al producto : "))
+      diccionario.append(id)
+      nombre=input("Ingrese el nombre de el producto : ")
+      cantidad= input("Ingrese la cantidad de el producto : ")
+      precio=input(" Ingrese el precio de el produccto : ")
+       diccionario{"id":id , "nombre":nombre,"cantidad":cantidad,"precio":precio}
+      print("¿Desea ingresar otro producto?")
+      bandera=input("1.Si \n2.No ")
+
+
+  #Eliminar producto
+  def eliminar_producto():
+    print( diccionario= { id : productos})
+    print("Que producto desea eliminar ")
+    eliminar= input("Ingrese el id de el producto que desea eliminar") #Pedirle al usuario que ingrese el id o el nombre que desea eliminar
+    for i in  diccionario = { id : productos}: #Recorremos la lista
+      if eliminar == id{}:     #Verificamos si el id se encuentra en el diccionario
+        diccionario.delete()
+
+
+
+
+  #Buscar producto
+  def buscar_producto():
+
+     
+  def listar_inventario(self):
+    for id in diccionario.items():
+       print(f"ID": {id}, "Nombre": nombre  , "Cantidad": cantidad, "Precio": precio)
+     
+
+  def guardar_inventario():
+    archivo.txt(open,"r")
+
+
+  def mostrar_inventario():
+
+  def cargar_inventario():
+
+  menu()
+  opcion= input("Ingrese la ocpion que desea realizar (1-5) : ")
+  if opcion==1:
+    agregar_producto()
+  if opcion==2:
+    eliminar_producto()
+  if opcion==3:
+    buscar_producto()
+  if opcion==4:
+    mostrar_inventario()
+  if opcion==5:
+    cargar_inventario()
